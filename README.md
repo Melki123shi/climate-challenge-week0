@@ -68,3 +68,28 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 - If `python` is not the expected version, try `python3`.
+
+# Streamlit dashboard Setup
+
+To fetch, clean, and prepare climate data for the Streamlit dashboard.
+
+## How to run the application
+
+From the project root:
+
+1. Install dependencies:
+	```bash
+	pip install -r requirements.txt
+	```
+2. Start the Streamlit app:
+	```bash
+	streamlit run app.py
+	```
+
+## Features
+
+- Data loading and preparation helpers
+- Interactive charts and visual summaries
+- Filtering by variable, location, or time range
+- Metric cards and trend views
+- Reusable scripts for repeatable data preparation
